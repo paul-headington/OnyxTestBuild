@@ -1,0 +1,26 @@
+<VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    ServerName businesssorter.local
+    ServerAlias www.businesssorter.local
+
+    DocumentRoot /var/www/site/public
+    DirectoryIndex index.php
+    <Directory />
+        Options FollowSymLinks
+        AllowOverride None
+    </Directory>
+    <Directory /var/www/site/public>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        allow from all
+    </Directory>
+
+    ErrorLog ${APACHE_LOG_DIR}/site-error.log
+
+    # Possible values include: debug, info, notice, warn, error, crit,
+    # alert, emerg.
+    LogLevel warn
+
+    CustomLog ${APACHE_LOG_DIR}/site-access.log combined
+</VirtualHost>
