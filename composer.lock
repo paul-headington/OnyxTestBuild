@@ -1,0 +1,630 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "f91d1d7415aa88fd4b69f68fa5faaf5e",
+    "packages": [
+        {
+            "name": "bjyoungblood/bjy-profiler",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bjyoungblood/BjyProfiler.git",
+                "reference": "890d8b522d00c7b5e62210e39812d83a6d99bdfb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bjyoungblood/BjyProfiler/zipball/890d8b522d00c7b5e62210e39812d83a6d99bdfb",
+                "reference": "890d8b522d00c7b5e62210e39812d83a6d99bdfb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "zendframework/zend-db": ">=2.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "BjyProfiler": "src/"
+                },
+                "classmap": [
+                    "./Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ben Youngblood",
+                    "email": "bx.youngblood@gmail.com",
+                    "homepage": "http://bjyoungblood.com/"
+                }
+            ],
+            "description": "Database profiler for Zend\\Db (also plugin for ZendDeveloperTools)",
+            "homepage": "https://github.com/bjyoungblood/BjyProfiler",
+            "keywords": [
+                "db",
+                "profiler",
+                "zdt",
+                "zf2"
+            ],
+            "time": "2014-08-05 14:38:59"
+        },
+        {
+            "name": "paul-headington/GetSet",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paul-headington/GetSet.git",
+                "reference": "3be321adb0a19915b4fb37770582a03bbc57e838"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paul-headington/GetSet/zipball/3be321adb0a19915b4fb37770582a03bbc57e838",
+                "reference": "3be321adb0a19915b4fb37770582a03bbc57e838",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DocBlockReader": "src/",
+                    "GetSet": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "keywords": [
+                "getter",
+                "setter",
+                "trait"
+            ],
+            "support": {
+                "source": "https://github.com/paul-headington/GetSet/tree/master",
+                "issues": "https://github.com/paul-headington/GetSet/issues"
+            },
+            "time": "2014-07-30 08:28:33"
+        },
+        {
+            "name": "paul-headington/OnyxAcl",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paul-headington/OnyxAcl.git",
+                "reference": "fa663a253897c1ac9e73211e53af457c1148bbba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paul-headington/OnyxAcl/zipball/fa663a253897c1ac9e73211e53af457c1148bbba",
+                "reference": "fa663a253897c1ac9e73211e53af457c1148bbba",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "zendframework/zendframework": "2.3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "System": "src/"
+                },
+                "classmap": [
+                    "./Module.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Headington",
+                    "email": "paul.headington@gmail.com"
+                }
+            ],
+            "keywords": [
+                "Access Control Levels",
+                "Onyx"
+            ],
+            "support": {
+                "source": "https://github.com/paul-headington/OnyxAcl/tree/master",
+                "issues": "https://github.com/paul-headington/OnyxAcl/issues"
+            },
+            "time": "2014-08-05 05:24:07"
+        },
+        {
+            "name": "paul-headington/OnyxLogger",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paul-headington/OnyxLogger.git",
+                "reference": "e3d0b6607ede10b1c60a5017e71258937a412f8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paul-headington/OnyxLogger/zipball/e3d0b6607ede10b1c60a5017e71258937a412f8b",
+                "reference": "e3d0b6607ede10b1c60a5017e71258937a412f8b",
+                "shasum": ""
+            },
+            "require": {
+                "paul-headington/getset": "dev-master",
+                "php": ">=5.3.3",
+                "zendframework/zendframework": "2.3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Logger": "src/"
+                },
+                "classmap": [
+                    "./Module.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Headington",
+                    "email": "paul.headington@gmail.com"
+                }
+            ],
+            "keywords": [
+                "Error Logger",
+                "Onyx"
+            ],
+            "support": {
+                "source": "https://github.com/paul-headington/OnyxLogger/tree/master",
+                "issues": "https://github.com/paul-headington/OnyxLogger/issues"
+            },
+            "time": "2014-08-05 04:12:11"
+        },
+        {
+            "name": "paul-headington/OnyxMail",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paul-headington/OnyxMail.git",
+                "reference": "8aea4aeec8c3fe287595611ce1a7c98c30aecf50"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paul-headington/OnyxMail/zipball/8aea4aeec8c3fe287595611ce1a7c98c30aecf50",
+                "reference": "8aea4aeec8c3fe287595611ce1a7c98c30aecf50",
+                "shasum": ""
+            },
+            "require": {
+                "paul-headington/getset": "dev-master",
+                "paul-headington/onyxlogger": "dev-master",
+                "php": ">=5.3.3",
+                "zendframework/zendframework": "2.3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Logger": "src/"
+                },
+                "classmap": [
+                    "./Module.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Headington",
+                    "email": "paul.headington@gmail.com"
+                }
+            ],
+            "keywords": [
+                "Mail sending",
+                "Onyx"
+            ],
+            "support": {
+                "source": "https://github.com/paul-headington/OnyxMail/tree/master",
+                "issues": "https://github.com/paul-headington/OnyxMail/issues"
+            },
+            "time": "2014-07-23 03:52:51"
+        },
+        {
+            "name": "paul-headington/OnyxRest",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paul-headington/OnyxRest.git",
+                "reference": "1411bcbe059d3e3672a2e792b487831ae5c442f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paul-headington/OnyxRest/zipball/1411bcbe059d3e3672a2e792b487831ae5c442f2",
+                "reference": "1411bcbe059d3e3672a2e792b487831ae5c442f2",
+                "shasum": ""
+            },
+            "require": {
+                "paul-headington/getset": "dev-master",
+                "paul-headington/onyxsystem": "dev-master",
+                "php": ">=5.3.3",
+                "zendframework/zendframework": "2.3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "System": "src/"
+                },
+                "classmap": [
+                    "./Module.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Headington",
+                    "email": "paul.headington@gmail.com"
+                }
+            ],
+            "keywords": [
+                "Onyx",
+                "Restful service"
+            ],
+            "support": {
+                "source": "https://github.com/paul-headington/OnyxRest/tree/master",
+                "issues": "https://github.com/paul-headington/OnyxRest/issues"
+            },
+            "time": "2014-08-05 04:12:17"
+        },
+        {
+            "name": "paul-headington/OnyxSystem",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paul-headington/OnyxSystem.git",
+                "reference": "4d943833b51a32e7199a710713e1d64249efb70c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paul-headington/OnyxSystem/zipball/4d943833b51a32e7199a710713e1d64249efb70c",
+                "reference": "4d943833b51a32e7199a710713e1d64249efb70c",
+                "shasum": ""
+            },
+            "require": {
+                "paul-headington/getset": "dev-master",
+                "paul-headington/onyxlogger": "dev-master",
+                "php": ">=5.3.3",
+                "zendframework/zendframework": "2.3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "System": "src/"
+                },
+                "classmap": [
+                    "./Module.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Headington",
+                    "email": "paul.headington@gmail.com"
+                }
+            ],
+            "keywords": [
+                "Model generator",
+                "Onyx"
+            ],
+            "support": {
+                "source": "https://github.com/paul-headington/OnyxSystem/tree/master",
+                "issues": "https://github.com/paul-headington/OnyxSystem/issues"
+            },
+            "time": "2014-08-05 04:12:33"
+        },
+        {
+            "name": "paul-headington/OnyxUser",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paul-headington/OnyxUser.git",
+                "reference": "a500954777b656b200352800b4bc3d0b0ec2a405"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paul-headington/OnyxUser/zipball/a500954777b656b200352800b4bc3d0b0ec2a405",
+                "reference": "a500954777b656b200352800b4bc3d0b0ec2a405",
+                "shasum": ""
+            },
+            "require": {
+                "paul-headington/getset": "dev-master",
+                "paul-headington/onyxlogger": "dev-master",
+                "paul-headington/onyxsystem": "dev-master",
+                "php": ">=5.3.3",
+                "zendframework/zendframework": "2.3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "System": "src/"
+                },
+                "classmap": [
+                    "./Module.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Headington",
+                    "email": "paul.headington@gmail.com"
+                }
+            ],
+            "keywords": [
+                "Onyx",
+                "User Module"
+            ],
+            "support": {
+                "source": "https://github.com/paul-headington/OnyxUser/tree/master",
+                "issues": "https://github.com/paul-headington/OnyxUser/issues"
+            },
+            "time": "2014-08-05 05:24:19"
+        },
+        {
+            "name": "zendframework/zend-developer-tools",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/ZendDeveloperTools.git",
+                "reference": "a9244b9cc17861eb36a7c899d450119575d16d41"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/ZendDeveloperTools/zipball/a9244b9cc17861eb36a7c899d450119575d16d41",
+                "reference": "a9244b9cc17861eb36a7c899d450119575d16d41",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "zendframework/zend-debug": "2.*",
+                "zendframework/zend-eventmanager": "2.*",
+                "zendframework/zend-mvc": "2.*",
+                "zendframework/zend-servicemanager": "2.*",
+                "zendframework/zend-stdlib": "2.*",
+                "zendframework/zend-version": "2.*"
+            },
+            "suggest": {
+                "bjyoungblood/bjy-profiler": "Version: dev-master, allows the usage of the (Zend) Db collector.",
+                "ocramius/ocra-service-manager": "OcraServiceManager can help you track dependencies within your application."
+            },
+            "type": "zf-module",
+            "autoload": {
+                "psr-0": {
+                    "ZendDeveloperTools": "src/"
+                },
+                "classmap": [
+                    "./Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Evan Coury",
+                    "email": "me@evancoury.com",
+                    "homepage": "http://blog.evan.pro/"
+                },
+                {
+                    "name": "Eric Boh",
+                    "email": "cossish@gmail.com"
+                }
+            ],
+            "description": "Module for developer and debug tools for working with the ZF2 MVC layer.",
+            "homepage": "https://github.com/zendframework/ZendDeveloperTools",
+            "keywords": [
+                "debug",
+                "developer",
+                "module",
+                "zf2"
+            ],
+            "time": "2014-07-11 19:51:50"
+        },
+        {
+            "name": "zendframework/zendframework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/zf2.git",
+                "reference": "9f2c50b2513cc3a72922ea72fe51055646302c1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/zf2/zipball/9f2c50b2513cc3a72922ea72fe51055646302c1a",
+                "reference": "9f2c50b2513cc3a72922ea72fe51055646302c1a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.23",
+                "zendframework/zendxml": "~1.0-dev"
+            },
+            "replace": {
+                "zendframework/zend-authentication": "self.version",
+                "zendframework/zend-barcode": "self.version",
+                "zendframework/zend-cache": "self.version",
+                "zendframework/zend-captcha": "self.version",
+                "zendframework/zend-code": "self.version",
+                "zendframework/zend-config": "self.version",
+                "zendframework/zend-console": "self.version",
+                "zendframework/zend-crypt": "self.version",
+                "zendframework/zend-db": "self.version",
+                "zendframework/zend-debug": "self.version",
+                "zendframework/zend-di": "self.version",
+                "zendframework/zend-dom": "self.version",
+                "zendframework/zend-escaper": "self.version",
+                "zendframework/zend-eventmanager": "self.version",
+                "zendframework/zend-feed": "self.version",
+                "zendframework/zend-file": "self.version",
+                "zendframework/zend-filter": "self.version",
+                "zendframework/zend-form": "self.version",
+                "zendframework/zend-http": "self.version",
+                "zendframework/zend-i18n": "self.version",
+                "zendframework/zend-inputfilter": "self.version",
+                "zendframework/zend-json": "self.version",
+                "zendframework/zend-ldap": "self.version",
+                "zendframework/zend-loader": "self.version",
+                "zendframework/zend-log": "self.version",
+                "zendframework/zend-mail": "self.version",
+                "zendframework/zend-math": "self.version",
+                "zendframework/zend-memory": "self.version",
+                "zendframework/zend-mime": "self.version",
+                "zendframework/zend-modulemanager": "self.version",
+                "zendframework/zend-mvc": "self.version",
+                "zendframework/zend-navigation": "self.version",
+                "zendframework/zend-paginator": "self.version",
+                "zendframework/zend-permissions-acl": "self.version",
+                "zendframework/zend-permissions-rbac": "self.version",
+                "zendframework/zend-progressbar": "self.version",
+                "zendframework/zend-resources": "self.version",
+                "zendframework/zend-serializer": "self.version",
+                "zendframework/zend-server": "self.version",
+                "zendframework/zend-servicemanager": "self.version",
+                "zendframework/zend-session": "self.version",
+                "zendframework/zend-soap": "self.version",
+                "zendframework/zend-stdlib": "self.version",
+                "zendframework/zend-tag": "self.version",
+                "zendframework/zend-test": "self.version",
+                "zendframework/zend-text": "self.version",
+                "zendframework/zend-uri": "self.version",
+                "zendframework/zend-validator": "self.version",
+                "zendframework/zend-version": "self.version",
+                "zendframework/zend-view": "self.version",
+                "zendframework/zend-xmlrpc": "self.version"
+            },
+            "require-dev": {
+                "doctrine/annotations": ">=1.0",
+                "fabpot/php-cs-fixer": "dev-master",
+                "ircmaxell/random-lib": "dev-master",
+                "ircmaxell/security-lib": "dev-master",
+                "mikey179/vfsstream": "1.2.*",
+                "phpunit/phpunit": "3.7.*",
+                "satooshi/php-coveralls": "dev-master",
+                "sebastianbergmann/phpcov": "1.1.0"
+            },
+            "suggest": {
+                "doctrine/annotations": "Doctrine Annotations >=1.0 for annotation features",
+                "ext-intl": "ext/intl for i18n features (included in default builds of PHP)",
+                "ircmaxell/random-lib": "Fallback random byte generator for Zend\\Math\\Rand if OpenSSL/Mcrypt extensions are unavailable",
+                "ocramius/proxy-manager": "ProxyManager 0.5.* to handle lazy initialization of services",
+                "zendframework/zendpdf": "ZendPdf for creating PDF representations of barcodes",
+                "zendframework/zendservice-recaptcha": "ZendService\\ReCaptcha for rendering ReCaptchas in Zend\\Captcha and/or Zend\\Form"
+            },
+            "bin": [
+                "bin/classmap_generator.php",
+                "bin/pluginmap_generator.php",
+                "bin/templatemap_generator.php"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev",
+                    "dev-develop": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Zend\\": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Zend Framework 2",
+            "homepage": "http://framework.zend.com/",
+            "keywords": [
+                "framework",
+                "zf2"
+            ],
+            "time": "2014-08-11 15:50:41"
+        },
+        {
+            "name": "zendframework/zendxml",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/ZendXml.git",
+                "reference": "559b34f426d33a11c3db118e00ce14bb8dc64e5f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/ZendXml/zipball/559b34f426d33a11c3db118e00ce14bb8dc64e5f",
+                "reference": "559b34f426d33a11c3db118e00ce14bb8dc64e5f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "*@dev",
+                "phpunit/phpunit": "~3.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "ZendXml": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Utility library for XML usage, best practices, and security in PHP",
+            "homepage": "http://packages.zendframework.com/",
+            "keywords": [
+                "security",
+                "xml",
+                "zf2"
+            ],
+            "time": "2014-03-05 22:25:44"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "zendframework/zend-developer-tools": 20,
+        "bjyoungblood/bjy-profiler": 20,
+        "paul-headington/getset": 20,
+        "paul-headington/onyxsystem": 20,
+        "paul-headington/onyxacl": 20,
+        "paul-headington/onyxrest": 20,
+        "paul-headington/onyxlogger": 20,
+        "paul-headington/onyxuser": 20,
+        "paul-headington/onyxmail": 20
+    },
+    "platform": {
+        "php": ">=5.3.3"
+    },
+    "platform-dev": [
+
+    ]
+}

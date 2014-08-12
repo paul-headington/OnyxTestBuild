@@ -1,0 +1,63 @@
+{
+    "name": "root/onyx-test-build",
+    "description": "a test build of the Zend2 Onyx system for codeship",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "framework",
+        "zf2"
+    ],
+     "config" : {
+        "vendor-dir" : "site/vendor"
+    },
+    "homepage": "http://framework.zend.com/",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.3.*",
+        "zendframework/zend-developer-tools": "dev-master",
+        "bjyoungblood/bjy-profiler": "dev-master",
+        "paul-headington/GetSet": "dev-master",
+        "paul-headington/OnyxSystem": "dev-master",
+        "paul-headington/OnyxAcl": "dev-master",
+        "paul-headington/OnyxRest": "dev-master",
+        "paul-headington/OnyxLogger": "dev-master",
+        "paul-headington/OnyxUser": "dev-master",
+        "paul-headington/OnyxMail": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Paul Headington",
+            "email": "paul.headington@colensobbdo.co.nz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/paul-headington/GetSet"
+    },
+    {
+        "type": "vcs",
+        "url": "https://github.com/paul-headington/OnyxSystem"
+    },
+    {
+        "type": "vcs",
+        "url": "https://github.com/paul-headington/OnyxAcl.git"
+    },
+    {
+        "type": "vcs",
+        "url": "https://github.com/paul-headington/OnyxRest.git"
+    },
+    {
+        "type": "vcs",
+        "url": "https://github.com/paul-headington/OnyxLogger.git"
+    },
+    {
+        "type": "vcs",
+        "url": "https://github.com/paul-headington/OnyxUser.git"
+    },
+    {
+        "type": "vcs",
+        "url": "https://github.com/paul-headington/OnyxMail.git"
+    }
+    ]
+}
