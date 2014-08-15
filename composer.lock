@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f91d1d7415aa88fd4b69f68fa5faaf5e",
+    "hash": "debe16eb0a4d4e63a4eae9b2137c78db",
     "packages": [
         {
             "name": "bjyoungblood/bjy-profiler",
@@ -384,12 +384,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/ZendDeveloperTools.git",
-                "reference": "a9244b9cc17861eb36a7c899d450119575d16d41"
+                "reference": "6468ed1c58a65ad797f04ebe794ca85fef0ff142"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/ZendDeveloperTools/zipball/a9244b9cc17861eb36a7c899d450119575d16d41",
-                "reference": "a9244b9cc17861eb36a7c899d450119575d16d41",
+                "url": "https://api.github.com/repos/zendframework/ZendDeveloperTools/zipball/6468ed1c58a65ad797f04ebe794ca85fef0ff142",
+                "reference": "6468ed1c58a65ad797f04ebe794ca85fef0ff142",
                 "shasum": ""
             },
             "require": {
@@ -437,7 +437,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2014-07-11 19:51:50"
+            "time": "2014-08-13 19:03:31"
         },
         {
             "name": "zendframework/zendframework",
@@ -445,12 +445,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zf2.git",
-                "reference": "9f2c50b2513cc3a72922ea72fe51055646302c1a"
+                "reference": "b1e33265a731aab365aad59a7263f557d0cfdd08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zf2/zipball/9f2c50b2513cc3a72922ea72fe51055646302c1a",
-                "reference": "9f2c50b2513cc3a72922ea72fe51055646302c1a",
+                "url": "https://api.github.com/repos/zendframework/zf2/zipball/b1e33265a731aab365aad59a7263f557d0cfdd08",
+                "reference": "b1e33265a731aab365aad59a7263f557d0cfdd08",
                 "shasum": ""
             },
             "require": {
@@ -555,7 +555,7 @@
                 "framework",
                 "zf2"
             ],
-            "time": "2014-08-11 15:50:41"
+            "time": "2014-08-12 16:51:36"
         },
         {
             "name": "zendframework/zendxml",
@@ -563,12 +563,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/ZendXml.git",
-                "reference": "559b34f426d33a11c3db118e00ce14bb8dc64e5f"
+                "reference": "5ea106152f32f738430f3af9ac638bf30adec625"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/ZendXml/zipball/559b34f426d33a11c3db118e00ce14bb8dc64e5f",
-                "reference": "559b34f426d33a11c3db118e00ce14bb8dc64e5f",
+                "url": "https://api.github.com/repos/zendframework/ZendXml/zipball/5ea106152f32f738430f3af9ac638bf30adec625",
+                "reference": "5ea106152f32f738430f3af9ac638bf30adec625",
                 "shasum": ""
             },
             "require": {
@@ -600,7 +600,7 @@
                 "xml",
                 "zf2"
             ],
-            "time": "2014-03-05 22:25:44"
+            "time": "2014-08-14 15:29:10"
         }
     ],
     "packages-dev": [
@@ -621,6 +621,7 @@
         "paul-headington/onyxuser": 20,
         "paul-headington/onyxmail": 20
     },
+    "prefer-stable": false,
     "platform": {
         "php": ">=5.3.3"
     },
