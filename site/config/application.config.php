@@ -8,7 +8,7 @@ $modules = array(
         'BjyProfiler',  
         'OnyxLogger',
         'OnyxSystem',            
-        //'OnyxMail',
+        'OnyxMail',
         //'OnyxAcl',
         //'OnyxRest',        
         //'OnyxUser',        
