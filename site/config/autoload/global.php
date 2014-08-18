@@ -12,5 +12,17 @@
  */
 
 return array(
-    // ...
+    'phpSettings'   => array(
+        'display_startup_errors'        => true,
+        'display_errors'                => true,
+        'max_execution_time'            => 60,
+        'date.timezone'                 => 'Pacific/Auckland',
+        'mbstring.internal_encoding'    => 'UTF-8',
+        'error_reporting'               => 'E_ALL|E_STRICT',
+        'sendmail_from'                 => 'no-reply@bs.local'
+    ),
+    'site_settings' => array(
+        'site_name' => 'Onyx Test Build',
+        'site_url'  => 'http://onyxtestbuild.elasticbeanstalk.com/'
+    ),
 );

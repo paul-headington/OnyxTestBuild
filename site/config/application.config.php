@@ -8,10 +8,10 @@ $modules = array(
         'BjyProfiler',  
         'OnyxLogger',
         'OnyxSystem',            
-        'OnyxMail',
-        'OnyxAcl',
-        'OnyxRest',        
-        'OnyxUser',        
+        //'OnyxMail',
+        //'OnyxAcl',
+        //'OnyxRest',        
+        //'OnyxUser',        
     );
 if ($env == 'development') {
     $modules[] = 'ZendDeveloperTools';
