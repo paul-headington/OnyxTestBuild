@@ -1,9 +1,25 @@
 <?php
+
+$env = getenv('APP_ENV') ?: 'development';
+
+// Use the $env value to determine which modules to load
+$modules = array(	
+        'Application',
+        'BjyProfiler',  
+        'OnyxLogger',
+        'OnyxSystem',            
+        'OnyxMail',
+        'OnyxAcl',
+        'OnyxRest',        
+        'OnyxUser',        
+    );
+if ($env == 'development') {
+    $modules[] = 'ZendDeveloperTools';
+}
+
 return array(
     // This should be an array of module namespaces used in the application.
-    'modules' => array(
-        'Application',
-    ),
+    'modules' => $modules,
 
     // These are various options for the listeners attached to the ModuleManager
     'module_listener_options' => array(
