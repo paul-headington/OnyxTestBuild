@@ -11,13 +11,13 @@ cd site/
 # precompile assets, ..
 
 # zip the application
-zip -x *.git* -r "${APP_NAME}-test.zip" . 
+zip -x *.git* -r "${APP_NAME}-local.zip" . 
 
 # delete any version with the same name (based on the short revision)
-#aws elasticbeanstalk delete-application-version --application-name "${APP_NAME}" --version-label "${APP_VERSION}"  --delete-source-bundle
+aws elasticbeanstalk delete-application-version --application-name "${APP_NAME}" --version-label "${APP_VERSION}"  --delete-source-bundle
 
 # upload to S3
-aws s3 cp ${APP_NAME}-test.zip s3://${S3_BUCKET}/${APP_NAME}-${APP_VERSION}.zip
+aws s3 cp ${APP_NAME}-local.zip s3://${S3_BUCKET}/${APP_NAME}-${APP_VERSION}.zip
 
 
 # create a new version and update the environment to use this version
