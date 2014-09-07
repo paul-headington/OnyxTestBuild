@@ -9,9 +9,9 @@ $modules = array(
         'OnyxLogger',
         'OnyxSystem',            
         'OnyxMail',
-        //'OnyxAcl',
-        //'OnyxRest',        
-        //'OnyxUser',        
+        'OnyxAcl',
+        'OnyxRest',        
+        'OnyxUser',        
     );
 if ($env == 'development') {
     $modules[] = 'ZendDeveloperTools';

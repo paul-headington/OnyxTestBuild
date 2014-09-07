@@ -6,26 +6,16 @@ return array(
             'system',
             'system/createmodel', 
             'home/default',
-            'about-us',
-            'dashboard',
-            'user',
-            'register',
-            'about-us',
-            'sorter',
-            'sorter/index',
-            'modal'
-            
+            'about-us'            
             ),
         'admin' => array(
             'admin',
-            'add-user',
             'delete-user',
-            'google/default'
             ),        
         ),
     "onyx_acl" => array(
         "error_message" => 'Access denied to that resource',
-        "load_from_db" => true,
+        "load_from_db" => false,
         "deny_unlisted" => true,
         "login_route" => 'dashboard',
         "logout_route" => 'user',

@@ -5,5 +5,8 @@
         <testsuite name="OnyxApplicationTestSuite">
             <directory>../module/Application/test/ApplicationTest</directory>
         </testsuite>
+        <testsuite name="Onyx Vendor Testing">
+            <directory suffix="Test.php">../vendor/paul-headington/*</directory>
+        </testsuite>
     </testsuites>
 </phpunit>
